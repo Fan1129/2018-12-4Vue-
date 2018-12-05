@@ -4,9 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueRouter from "vue-router"
+import Split from "@/components/Split/Split.vue"
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
+Vue.component("Split",Split)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
