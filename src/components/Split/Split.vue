@@ -11,6 +11,6 @@
 <style lang="stylus" rel="stylesheet/stylus">
   .split
     width 100%
-    height 0.16rem
+    height 0.32rem
     background #f3f5f7
 </style>

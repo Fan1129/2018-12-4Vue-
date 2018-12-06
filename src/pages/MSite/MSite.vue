@@ -4,8 +4,10 @@
       <header class="header">
         <div class="header-top">
           <a href="javascript:;" class="logo"></a>
-          <input type="text" class="search" placeholder="              搜索商品，共19914款好物">
-          <span class="iconfont icon-sousuo"></span>
+          <div class="search">
+            <span class="iconfont icon-sousuo1"></span>
+            <span class="text">搜索商品，共19914款好物</span>
+          </div>
           <div class="login">登录</div>
         </div>
 
@@ -113,7 +115,6 @@
         </ul>
       </div>
       <Split/>
-      <Split/>
       <!--内容-->
       <div class="wrap">
         <!--新人专享-->
@@ -155,7 +156,6 @@
           </div>
         </div>
         <Split/>
-        <Split/>
         <!--品牌-->
         <div class="brand">
           <div class="headername">
@@ -195,7 +195,6 @@
             </li>
           </ul>
         </div>
-        <Split/>
         <Split/>
         <!--热销-->
         <div class="hotsell">
@@ -270,7 +269,6 @@
           </ul>
         </div>
         <Split/>
-        <Split/>
         <!--人气-->
         <div class="popularity">
           <div class="headername">
@@ -288,32 +286,135 @@
             </div>
 
           </div>
-          <ul class="list">
+          <ul class="list clearfix">
             <li class="item">
               <img class="icon" src="http://yanxuan.nosdn.127.net/fb53b989d34b32366f138b5e563ccd0a.png?imageView&quality=65&thumbnail=330x330" alt="">
-              <p class="titile">升级款95%白鹅绒秋冬加厚...</p>
+              <span class="titile">升级款95%白鹅绒秋冬加厚...</span>
               <span class="money">￥1028</span>
               <span class="activity">明星日</span>
             </li>
             <li class="item">
               <img class="icon" src="http://yanxuan.nosdn.127.net/4bd683266bdb366de0e28128ea6690bc.png?imageView&quality=65&thumbnail=330x330" alt="">
-              <p class="titile">升级款95%白鹅绒秋冬加厚...</p>
-              <span class="money">￥1028</span>
-              <span class="activity">明星日</span>
+              <span class="titile">男式天鹅绒保暖牛仔裤</span>
+              <span class="money">￥169</span>
+              <span class="activity">三石福利价</span>
             </li>
             <li class="item">
-              <img class="icon" src="http://yanxuan.nosdn.127.net/fb53b989d34b32366f138b5e563ccd0a.png?imageView&quality=65&thumbnail=330x330" alt="">
-              <p class="titile">升级款95%白鹅绒秋冬加厚...</p>
-              <span class="money">￥1028</span>
+              <img class="icon" src="http://yanxuan.nosdn.127.net/77b7e8586397dc27613e6c5c6da7a85a.png?imageView&quality=65&thumbnail=330x330" alt="">
+              <span class="titile">男式轻薄无缝羽绒服</span>
+              <span class="money">￥252</span>
               <span class="activity">明星日</span>
             </li>
           </ul>
         </div>
+        <Split/>
+        <!--限时-->
+        <div class="limit">
+          <div class="headername">
+            <span>限时购</span>
+            <span class="gd">更多</span>
+            <span class="iconfont icon-jiantouyou"></span>
+          </div>
+          <ul class="list clearfix">
+            <li class="item">
+              <img class="icon" src="http://yanxuan.nosdn.127.net/59620279f1819daae4430fb3e2f6384f.png" alt="">
+              <span class="sale-price">￥352</span>
+              <span class="original-price">469</span>
+            </li>
+            <li class="item">
+              <img class="icon" src="http://yanxuan.nosdn.127.net/59620279f1819daae4430fb3e2f6384f.png" alt="">
+              <span class="sale-price">￥352</span>
+              <span class="original-price">469</span>
+            </li>
+            <li class="item">
+              <img class="icon" src="http://yanxuan.nosdn.127.net/59620279f1819daae4430fb3e2f6384f.png" alt="">
+              <span class="sale-price">￥352</span>
+              <span class="original-price">469</span>
+            </li>
+            <li class="item">
+              <img class="icon" src="http://yanxuan.nosdn.127.net/59620279f1819daae4430fb3e2f6384f.png" alt="">
+              <span class="sale-price">￥352</span>
+              <span class="original-price">469</span>
+            </li>
+            <li class="item">
+              <img class="icon" src="http://yanxuan.nosdn.127.net/59620279f1819daae4430fb3e2f6384f.png" alt="">
+              <span class="sale-price">￥352</span>
+              <span class="original-price">469</span>
+            </li>
+            <li class="item">
+              <img class="icon" src="http://yanxuan.nosdn.127.net/59620279f1819daae4430fb3e2f6384f.png" alt="">
+              <span class="sale-price">￥352</span>
+              <span class="original-price">469</span>
+            </li>
+          </ul>
+        </div>
 
+        <Split/>
+
+        <!--新品-->
+        <div class="new-product">
+          <div class="headername">
+            <span>新品首发</span>
+            <span class="gd">更多</span>
+            <span class="iconfont icon-jiantouyou"></span>
+          </div>
+          <ul class="list clearfix">
+            <li class="item">
+              <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
+              <span class="titile">20寸 磨砂PC膜拉链登机....</span>
+              <span class="money">￥188</span>
+              <span class="activity">开天辟地价</span>
+            </li>
+            <li class="item">
+              <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
+              <span class="titile">20寸 磨砂PC膜拉链登机....</span>
+              <span class="money">￥188</span>
+              <span class="activity">开天辟地价</span>
+            </li>
+            <li class="item">
+              <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
+              <span class="titile">20寸 磨砂PC膜拉链登机....</span>
+              <span class="money">￥188</span>
+              <span class="activity">开天辟地价</span>
+            </li>
+            <li class="item">
+              <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
+              <span class="titile">20寸 磨砂PC膜拉链登机....</span>
+              <span class="money">￥188</span>
+              <span class="activity">开天辟地价</span>
+            </li>
+            <li class="item">
+            <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
+            <span class="titile">20寸 磨砂PC膜拉链登机....</span>
+            <span class="money">￥188</span>
+            <span class="activity">开天辟地价</span>
+          </li>
+            <li class="item">
+            <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
+            <span class="titile">20寸 磨砂PC膜拉链登机....</span>
+            <span class="money">￥188</span>
+            <span class="activity">开天辟地价</span>
+          </li>
+          </ul>
+        </div>
+
+        <Split/>
       </div>
-
-
-      <div style="width: 100%;height: 0.83rem;background-color: #fff"></div>
+      <span class="goToTop iconfont icon-jiantou"></span>
+      <div class="bottom">
+        <div class="content">
+            <div class="bd" >
+             <span class="app">下载APP</span>
+              <span class="pc">电脑版</span>
+            </div>
+            <p class="copyright" >
+              <span>网易公司版权所有 © 1997-</span>
+              <span>2018</span>
+              <br>
+              <span>食品经营许可证：JY13301080111719</span>
+            </p>
+        </div>
+      </div>
     </section>
 </template>
 
@@ -359,7 +460,6 @@
       .header-top
         width 6.9rem
         height 0.55rem
-        position: relative
         display flex
         align-items center
         padding 0.21rem 0.4rem
@@ -375,17 +475,22 @@
           background-position center
           line-height 0.39rem
         .search
+          display inline
           float left
           color #666
           width 4.44rem
           height 0.56rem
           background-color #ededed
-          font-size 0.18rem
-        .iconfont
-          font-size 0.32rem
-          position: absolute
-          top 0.32rem
-          left 2.4rem
+          text-align center
+          line-height 0.56rem
+          border-radius 0.2rem
+          span
+            font-size 0.2rem
+          .iconfont
+            display inline-block
+            padding-right 0.1rem
+            font-size 0.3rem
+
         .login
           float left
           width: 0.6rem
@@ -403,10 +508,10 @@
         position: relative
         .list
           display flex
-          font-size 0.32rem
           white-space nowrap
           width 6.5rem
           .item
+            font-size 0.32rem
             float left
             width 1.2rem
             height 0.6rem
@@ -485,8 +590,9 @@
       //新人
       .newbie
         color #333
-        padding-left 0.2rem
-        padding-right 0.2rem
+        padding-left 0.21rem
+        /*padding-right 0.2rem*/
+        padding-bottom 0.1rem
         .headertext
           padding-top 0.1rem
           line-height 0.5rem
@@ -516,6 +622,7 @@
             float right
             width 3.43rem
             height 4.5rem
+            padding-right 0.21rem
             .up
               background-color antiquewhite
               width 100%
@@ -601,11 +708,12 @@
       //品牌
       .brand
         color #333
-        padding-left 0.2rem
-        padding-right 0.2rem
+        padding-left 0.21rem
+        /*padding-right 0.2rem*/
         .headername
           padding-top 0.1rem
           line-height 0.99rem
+          padding-right 0.21rem
           span
             font-size 0.4rem
           .gd
@@ -623,7 +731,7 @@
             float left
             width 3.43rem
             height 2.6rem
-            margin-right 0.1rem
+            margin-right 0.21rem
             margin-bottom 0.1rem
             .icon
               width 3.43rem
@@ -651,8 +759,9 @@
       /*热销*/
       .hotsell
         color #333
-        padding-left 0.2rem
-        padding-right 0.2rem
+        padding-left 0.22rem
+        /*padding-right 0.2rem*/
+        padding-bottom 0.2rem
         .headername
           padding-top 0.1rem
           line-height 0.99rem
@@ -666,7 +775,7 @@
             float left
             width 3.4rem
             height 2rem
-            margin-right 0.1rem
+            margin-right 0.22rem
             margin-bottom 0.1rem
             .content
               position absolute
@@ -694,7 +803,7 @@
             float left
             width 1.65rem
             height 1.8rem
-            margin-right 0.1rem
+            margin-right 0.14rem
             margin-bottom 0.1rem
             text-align center
             .content
@@ -709,11 +818,13 @@
       /*人气*/
       .popularity
         color #333
-        padding-left 0.2rem
-        padding-right 0.2rem
+        /*padding-right 0.2rem*/
+        padding-bottom 0.3rem
         .headername
           padding-top 0.1rem
           line-height 0.99rem
+          padding-right 0.2rem
+          margin-left 0.2rem
           span
             font-size 0.4rem
           .gd
@@ -729,6 +840,8 @@
           width 6.9rem
           height 2.8rem
           margin-bottom 0.2rem
+          padding-right 0.2rem
+          margin-left 0.2rem
           .icon
             width 2.8rem
             height 2.8rem
@@ -763,16 +876,172 @@
 
 
         .list
+          padding-left 0
           width 100%
           height 3.51rem
           .item
             float left
             width 2.1rem
             height 3.38rem
-            margin-right 0.25rem
+            padding-left 0.29rem
+            /*margin-right 0.333rem*/
             .icon
               background-color #d7d7d7
               width 2.16rem
               height 2.16rem
+              margin-bottom 0.1rem
+            .title
+              margin-top 0.1rem
+              font-size 0.26rem
+              line-height 0.3rem
+            .money
+              font-size 0.26rem
+              color #b4282d
+              line-height 0.3rem
+            .activity
+              margin-top 0.1rem
+              display inline-block
+              background-color #f48f18
+              color #fff
+              padding 0.05rem 0.16rem
+              font-size 0.2rem
+              border-radius 0.02rem
+              line-height 0.22rem
+
+      /*限时*/
+      .limit
+        color #333
+        padding-bottom 0.3rem
+        .headername
+          padding-top 0.1rem
+          line-height 0.99rem
+          padding-right 0.2rem
+          margin-left 0.29rem
+          span
+            font-size 0.4rem
+          .gd
+            font-size 0.36rem
+            float right
+            margin-right 0.6rem
+          .iconfont
+            font-size 0.36rem
+            float right
+            margin-right -1.2rem
+        .list
+          padding-left 0
+          width 100%
+          height 5.98rem
+          .item
+            float left
+            width 2.1rem
+            height 2.99rem
+            padding-left 0.29rem
+            .icon
+              background-color #d7d7d7
+              width 2.16rem
+              height 2.16rem
+              margin-bottom 0.1rem
+            .sale-price
+              margin-top 0.1rem
+              font-size 0.26rem
+              line-height 0.3rem
+              color #b4282d
+              padding-right 0.2rem
+            .original-price
+              font-size 0.26rem
+              text-decoration line-through
+              line-height 0.3rem
+      /*新品*/
+      .new-product
+        color #333
+        padding-bottom 0.2rem
+        .headername
+          padding-top 0.1rem
+          line-height 0.99rem
+          padding-right 0.2rem
+          margin-left 0.29rem
+          span
+            font-size 0.4rem
+          .gd
+            font-size 0.36rem
+            float right
+            margin-right 0.6rem
+          .iconfont
+            font-size 0.36rem
+            float right
+            margin-right -1.2rem
+        .list
+          padding-left 0
+          width 100%
+          height 7.02rem
+          .item
+            float left
+            width 2.1rem
+            height 3.38rem
+            padding-left 0.29rem
+            .icon
+              background-color #d7d7d7
+              width 2.16rem
+              height 2.16rem
+              margin-bottom 0.1rem
+            .title
+              margin-top 0.1rem
+              font-size 0.26rem
+              line-height 0.3rem
+            .money
+              font-size 0.26rem
+              color #b4282d
+              line-height 0.3rem
+            .activity
+              margin-top 0.1rem
+              display inline-block
+              background-color #f48f18
+              color #fff
+              padding 0.05rem 0.16rem
+              font-size 0.2rem
+              border-radius 0.02rem
+              line-height 0.22rem
+
+    /*锚点*/
+    .goToTop
+      display inline-block
+      position: fixed;
+      right: .30667rem;
+      bottom: 1.6rem;
+      z-index: 2;
+      vertical-align: middle;
+      width: 1.1rem;
+      height: 1.1rem;
+      border-radius 50%
+      background-color #fff
+      font-size 0.3rem
+      text-align center
+      line-height 1.1rem
+    /*底部*/
+    .bottom
+      width 100%
+      height 2.43rem
+      background-color #262626
+
+      .content
+        height 1.62rem
+        padding 0.54rem 0.2rem 0.8rem 0.2rem
+        text-align center
+        .bd
+          color #fff
+          span
+            display inline-block
+            font-size 0.3rem
+            width 1.7rem
+            height 0.6rem
+            border 0.02rem solid #999
+            line-height 0.6rem
+          .app
+            margin-right 0.6rem
+        .copyright
+          font-size 0.3rem
+          color #999
+          margin-top 0.2rem
+          line-height 0.3rem
 </style>
 

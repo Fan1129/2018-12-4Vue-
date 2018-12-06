@@ -1,5 +1,7 @@
 <template>
-    <div>购物车</div>
+    <div class="order">
+
+    </div>
 </template>
 
 <script>
