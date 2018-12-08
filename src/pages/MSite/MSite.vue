@@ -11,8 +11,10 @@
           <div class="login">登录</div>
         </div>
 
-        <div class="header-wrap">
-            <ul class="list">
+
+        <div class="header-wrap ">
+          <div class="nav" id="nav">
+            <ul class="navList list">
               <li class="item">推荐</li>
               <li class="item">居家</li>
               <li class="item">鞋包配饰</li>
@@ -24,12 +26,14 @@
               <li class="item">婴童</li>
               <li class="item">文体</li>
             </ul>
+          </div>
+
           <span class="iconfont icon-iconfontjiantou"></span>
         </div>
       </header>
       <!--轮播图-->
       <nav class="msite-nav">
-        <div class="swiper-container">
+        <div class="nav-swiper swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <img src="https://yanxuan.nosdn.127.net/947479ba62a2ef4bababc8690cef0a80.jpg" alt="">
@@ -114,11 +118,11 @@
           </li>
         </ul>
       </div>
-      <Split/>
+
       <!--内容-->
       <div class="wrap">
         <!--新人专享-->
-        <div class="newbie">
+        <div class="newbie indexFloor">
           <div class="headertext">
             <span>—</span>
             <span>新人专享礼</span>
@@ -155,9 +159,9 @@
             </div>
           </div>
         </div>
-        <Split/>
+
         <!--品牌-->
-        <div class="brand">
+        <div class="brand indexFloor">
           <div class="headername">
             <span>品牌制造商直供</span>
             <span class="gd">更多</span>
@@ -195,9 +199,8 @@
             </li>
           </ul>
         </div>
-        <Split/>
         <!--热销-->
-        <div class="hotsell">
+        <div class="hotsell indexFloor">
           <div class="headername">
             <span>类目热销榜</span>
           </div>
@@ -268,9 +271,8 @@
             </li>
           </ul>
         </div>
-        <Split/>
         <!--人气-->
-        <div class="popularity">
+        <div class="popularity indexFloor">
           <div class="headername">
             <span>人气推荐</span>
             <span class="gd">更多</span>
@@ -291,25 +293,30 @@
               <img class="icon" src="http://yanxuan.nosdn.127.net/fb53b989d34b32366f138b5e563ccd0a.png?imageView&quality=65&thumbnail=330x330" alt="">
               <span class="titile">升级款95%白鹅绒秋冬加厚...</span>
               <span class="money">￥1028</span>
-              <span class="activity">明星日</span>
+              <div class="activity">
+                <span>明星日</span>
+              </div>
             </li>
             <li class="item">
               <img class="icon" src="http://yanxuan.nosdn.127.net/4bd683266bdb366de0e28128ea6690bc.png?imageView&quality=65&thumbnail=330x330" alt="">
               <span class="titile">男式天鹅绒保暖牛仔裤</span>
               <span class="money">￥169</span>
-              <span class="activity">三石福利价</span>
+              <div class="activity">
+                <span>三石福利价</span>
+              </div>
             </li>
             <li class="item">
               <img class="icon" src="http://yanxuan.nosdn.127.net/77b7e8586397dc27613e6c5c6da7a85a.png?imageView&quality=65&thumbnail=330x330" alt="">
               <span class="titile">男式轻薄无缝羽绒服</span>
               <span class="money">￥252</span>
-              <span class="activity">明星日</span>
+              <div class="activity">
+                <span>明星日</span>
+              </div>
             </li>
           </ul>
         </div>
-        <Split/>
         <!--限时-->
-        <div class="limit">
+        <div class="limit indexFloor">
           <div class="headername">
             <span>限时购</span>
             <span class="gd">更多</span>
@@ -348,11 +355,8 @@
             </li>
           </ul>
         </div>
-
-        <Split/>
-
         <!--新品-->
-        <div class="new-product">
+        <div class="new-product indexFloor">
           <div class="headername">
             <span>新品首发</span>
             <span class="gd">更多</span>
@@ -363,42 +367,122 @@
               <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
               <span class="titile">20寸 磨砂PC膜拉链登机....</span>
               <span class="money">￥188</span>
-              <span class="activity">开天辟地价</span>
+              <div class="activity">
+                <span>开天辟地价</span>
+              </div>
             </li>
             <li class="item">
               <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
               <span class="titile">20寸 磨砂PC膜拉链登机....</span>
               <span class="money">￥188</span>
-              <span class="activity">开天辟地价</span>
+              <div class="activity">
+                <span>开天辟地价</span>
+              </div>
             </li>
             <li class="item">
               <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
               <span class="titile">20寸 磨砂PC膜拉链登机....</span>
               <span class="money">￥188</span>
-              <span class="activity">开天辟地价</span>
+              <div class="activity">
+                <span>开天辟地价</span>
+              </div>
             </li>
             <li class="item">
               <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
               <span class="titile">20寸 磨砂PC膜拉链登机....</span>
               <span class="money">￥188</span>
-              <span class="activity">开天辟地价</span>
+              <div class="activity">
+                <span>开天辟地价</span>
+              </div>
             </li>
             <li class="item">
             <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
             <span class="titile">20寸 磨砂PC膜拉链登机....</span>
             <span class="money">￥188</span>
-            <span class="activity">开天辟地价</span>
+              <div class="activity">
+                <span>开天辟地价</span>
+              </div>
           </li>
             <li class="item">
             <img class="icon" src="http://yanxuan.nosdn.127.net/593ebddb97e6395592de3c9130ccf60a.png?imageView&quality=65&thumbnail=330x330" alt="">
             <span class="titile">20寸 磨砂PC膜拉链登机....</span>
             <span class="money">￥188</span>
-            <span class="activity">开天辟地价</span>
+              <div class="activity">
+                <span>开天辟地价</span>
+              </div>
           </li>
           </ul>
         </div>
-
-        <Split/>
+        <!--榜单-->
+        <div class="hot-sale indexFloor">
+          <div class="sale">
+            <img class="icon" src="https://yanxuan.nosdn.127.net/806d68797aaf63ace9639b20c01feb45.jpg?imageView&thumbnail=750x0&quality=75" alt="">
+          </div>
+          <div class="hot-sale-swiper swiper-container">
+            <ul class="list clearfix swiper-wrapper">
+              <li class="item swiper-slide">
+                <img class="icon" src="http://yanxuan.nosdn.127.net/6689051d92c7e1053f83331859bf025e.png?imageView&quality=65&thumbnail=330x330" alt="">
+                <span class="title">白果炖鸡汤 280克*3杯</span>
+                <div class="money">
+                  <span class="sale-price">￥32</span>
+                  <span class="original-price"></span>
+                </div>
+                <div class="discount">
+                  <span>明星日</span>
+                  <span>明星日</span>
+                </div>
+              </li>
+              <li class="item swiper-slide">
+                <img class="icon" src="http://yanxuan.nosdn.127.net/de5b98ae57f2c21c8f3880ae770001ef.png?imageView&quality=65&thumbnail=330x330" alt="">
+                <span class="title">香辣鸭脖 168克</span>
+                <div class="money">
+                  <span class="sale-price">￥12</span>
+                  <span class="original-price">18</span>
+                </div>
+                <div class="discount">
+                  <span>明星日</span>
+                  <span>明星日</span>
+                </div>
+              </li>
+              <li class="item swiper-slide">
+                <img class="icon" src="http://yanxuan.nosdn.127.net/97719f5e6bbca639cdab6b50591c0689.png?imageView&quality=65&thumbnail=330x330" alt="">
+                <span class="title">大牌特调 严选椒香鲜辣小龙虾1KG/盒</span>
+                <div class="money">
+                  <span class="sale-price">￥29.9</span>
+                  <span class="original-price">￥98</span>
+                </div>
+                <div class="discount">
+                  <span>明星日</span>
+                  <span>明星日</span>
+                </div>
+              </li>
+              <li class="item swiper-slide">
+                <img class="icon" src="http://yanxuan.nosdn.127.net/97719f5e6bbca639cdab6b50591c0689.png?imageView&quality=65&thumbnail=330x330" alt="">
+                <span class="title">北海道风味大虾面 61克*6杯</span>
+                <div class="money">
+                  <span class="sale-price">￥35</span>
+                  <span class="original-price">￥38.5</span>
+                </div>
+                <div class="discount">
+                  <span>明星日</span>
+                  <span>明星日</span>
+                </div>
+              </li>
+              <li class="item swiper-slide">
+                <img class="icon" src="http://yanxuan.nosdn.127.net/88c630ddfad4c98201b08956f528ce4d.png?imageView&quality=65&thumbnail=330x330" alt="">
+                <span class="title">奇亚籽谷物脆水果燕麦片 800克</span>
+                <div class="money">
+                  <span class="sale-price">￥43.9</span>
+                  <span class="original-price">￥52</span>
+                </div>
+                <div class="discount">
+                  <span>明星日</span>
+                  <span>明星日</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       <span class="goToTop iconfont icon-jiantou"></span>
       <div class="bottom">
@@ -421,16 +505,22 @@
 <script>
   import "swiper/dist/css/swiper.min.css"
   import Swiper from "swiper"
+  import Bscroll from "better-scroll"
     export default {
         name: "m-site",
       mounted(){
-          this.plany()
+          this.navSwiper();
+          this.hotSaleSwiper();
+          new Bscroll('#nav', {
+            scrollX:true,
+            scrollY:false,
+            click: true
+          })
       },
       methods:{
-          plany(){
+        navSwiper(){
             this.$nextTick(()=>{//界面已经更新显示了
-              var swiper = new Swiper('.swiper-container', {
-                spaceBetween: 30,
+              var swiper = new Swiper('.nav-swiper', {
                 loop:true,
                 autoplay: {
                   delay: 2500,
@@ -441,8 +531,23 @@
                 },
               });
             })
-          }
+          },
+        hotSaleSwiper(){
+          this.$nextTick(()=>{//界面已经更新显示了
+            var swiper = new Swiper('.hot-sale-swiper', {
+              slidesPerView: "auto",
+              freeMode: true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+            });
+          })
+        },
+
       },
+
+
 
     }
 </script>
@@ -454,15 +559,16 @@
     .header
       position fixed
       z-index 100
+      width: 100%
       left 0
       top 0
       background-color #fff
       .header-top
-        width 6.9rem
+        /*width 6.9rem*/
         height 0.55rem
-        display flex
+        /*display flex*/
         align-items center
-        padding 0.21rem 0.4rem
+        padding 0.2rem 0.4rem
         .logo
           display inline-block
           width 1.38rem
@@ -478,12 +584,14 @@
           display inline
           float left
           color #666
-          width 4.44rem
+          /*width 4.44rem*/
           height 0.56rem
           background-color #ededed
           text-align center
           line-height 0.56rem
           border-radius 0.2rem
+          padding-left 0.5rem
+          padding-right 0.4rem
           span
             font-size 0.2rem
           .iconfont
@@ -500,28 +608,34 @@
           text-align center
           color #b4282b
           border 0.01rem solid #b4282b
-          margin-left 0.2rem
+          margin-left 0.255rem
           border-radius 0.1rem
-
       .header-wrap
-        z-index 100
+        width 100%
         position: relative
-        .list
-          display flex
-          white-space nowrap
+        overflow hidden
+        height 0.6rem
+        .nav
           width 6.5rem
-          .item
-            font-size 0.32rem
-            float left
-            width 1.2rem
-            height 0.6rem
-            margin-left 0.4rem
-            line-height 0.6rem
-            &:focus
-              color #b4282b
+          overflow hidden
+          height 0.6rem
+
+          .list
+            display inline-block
+            white-space nowrap
+            margin-right 1.6rem
+            .item
+              display inline-block
+              font-size 0.32rem
+              /*float left*/
+              /*width 1.2rem*/
+              height 0.6rem
+              margin-left 0.4rem
+              line-height 0.6rem
         .iconfont
+          z-index 100
           display inline-block
-          width 1.333rem
+          width 1rem
           height 0.6rem
           font-size 0.32rem
           position: absolute
@@ -587,12 +701,15 @@
     /*内容*/
     .wrap
       width 100%
+      background-color #f3f5f7
+      .indexFloor
+        margin-top 0.2rem
       //新人
       .newbie
+        background-color #fff
         color #333
         padding-left 0.21rem
-        /*padding-right 0.2rem*/
-        padding-bottom 0.1rem
+        padding-bottom 0.26rem
         .headertext
           padding-top 0.1rem
           line-height 0.5rem
@@ -707,9 +824,10 @@
                   text-decoration line-through
       //品牌
       .brand
+        background-color #fff
         color #333
+        padding-bottom 0.26rem
         padding-left 0.21rem
-        /*padding-right 0.2rem*/
         .headername
           padding-top 0.1rem
           line-height 0.99rem
@@ -730,7 +848,6 @@
             position relative
             float left
             width 3.43rem
-            height 2.6rem
             margin-right 0.21rem
             margin-bottom 0.1rem
             .icon
@@ -758,10 +875,10 @@
 
       /*热销*/
       .hotsell
+        background-color #fff
         color #333
         padding-left 0.22rem
-        /*padding-right 0.2rem*/
-        padding-bottom 0.2rem
+        padding-bottom 0.26rem
         .headername
           padding-top 0.1rem
           line-height 0.99rem
@@ -774,7 +891,6 @@
             background-color #EBEFF6
             float left
             width 3.4rem
-            height 2rem
             margin-right 0.22rem
             margin-bottom 0.1rem
             .content
@@ -817,9 +933,9 @@
               height 1.2rem
       /*人气*/
       .popularity
+        background-color #fff
         color #333
-        /*padding-right 0.2rem*/
-        padding-bottom 0.3rem
+        padding-bottom 0.26rem
         .headername
           padding-top 0.1rem
           line-height 0.99rem
@@ -899,19 +1015,22 @@
               color #b4282d
               line-height 0.3rem
             .activity
-              margin-top 0.1rem
-              display inline-block
-              background-color #f48f18
+              margin-top 0.2rem
+              margin-bottom 0.2rem
               color #fff
-              padding 0.05rem 0.16rem
               font-size 0.2rem
               border-radius 0.02rem
               line-height 0.22rem
+              span
+                padding 0.05rem 0.16rem
+                background-color #f48f18
+
 
       /*限时*/
       .limit
+        background-color #fff
         color #333
-        padding-bottom 0.3rem
+        padding-bottom 0.26rem
         .headername
           padding-top 0.1rem
           line-height 0.99rem
@@ -930,11 +1049,9 @@
         .list
           padding-left 0
           width 100%
-          height 5.98rem
           .item
             float left
             width 2.1rem
-            height 2.99rem
             padding-left 0.29rem
             .icon
               background-color #d7d7d7
@@ -953,8 +1070,9 @@
               line-height 0.3rem
       /*新品*/
       .new-product
+        background-color #fff
         color #333
-        padding-bottom 0.2rem
+        padding-bottom 0.26rem
         .headername
           padding-top 0.1rem
           line-height 0.99rem
@@ -973,11 +1091,9 @@
         .list
           padding-left 0
           width 100%
-          height 7.02rem
           .item
             float left
             width 2.1rem
-            height 3.38rem
             padding-left 0.29rem
             .icon
               background-color #d7d7d7
@@ -993,14 +1109,79 @@
               color #b4282d
               line-height 0.3rem
             .activity
-              margin-top 0.1rem
-              display inline-block
-              background-color #f48f18
+              margin-top 0.2rem
+              margin-bottom 0.2rem
               color #fff
-              padding 0.05rem 0.16rem
               font-size 0.2rem
               border-radius 0.02rem
               line-height 0.22rem
+              span
+                padding 0.05rem 0.16rem
+                background-color #f48f18
+
+
+      //榜单
+      .hot-sale
+        background-color #fff
+        color #333
+        padding-bottom 0.26rem
+        .sale
+          margin-bottom 0.2rem
+          img
+            width 100%
+            height 3.7rem
+        .list
+          padding-left 0
+          width 100%
+          margin-left 0.2rem
+          .item
+            float left
+            width 2rem
+            padding-right 0.4rem
+            .icon
+              background-color #f4f4f4
+              width 2.16rem
+              height 2.16rem
+              margin-bottom 0.1rem
+            .title
+              display inline-block
+              width 2.16rem
+              padding-left: 0;
+              font-size: .24rem;
+              margin-top: 0;
+              line-height: .28rem;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              white-space: normal;
+            .money
+              font-size 0.26rem
+              color #b4282d
+              line-height 0.3rem
+              .sale-price
+                margin-top 0.1rem
+                font-size 0.26rem
+                line-height 0.3rem
+                color #b4282d
+                padding-right 0.2rem
+              .original-price
+                font-size 0.26rem
+                text-decoration line-through
+                line-height 0.3rem
+            .discount
+              background-color #fff
+              font-size 0.2rem
+              color #B4282D
+              line-height 0.2rem
+              text-align center
+              margin-top 0.15rem
+              padding 0.05rem 0.16rem
+              span
+                border 0.01rem solid #b4282b
+                border-radius 0.02rem
+
 
     /*锚点*/
     .goToTop

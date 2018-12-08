@@ -102,26 +102,26 @@
               <div class="title">家有萌娃</div>
             </div>
             <div class="pic collection-swiper swiper-container">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
+              <ul class="list clearfix swiper-wrapper">
+                <li class="item swiper-slide">
                   <img class="icon" src="https://yanxuan.nosdn.127.net/b946c00a5ba22b233d9886485372c652.jpg?imageView&quality=65&thumbnail=272y272" alt="" width="100%" height="100%">
-                </div>
-                <div class="swiper-slide">
+                </li>
+                <li class="item swiper-slide">
                   <img class="icon" src="https://yanxuan.nosdn.127.net/793586988c2ec74883cfa719957b8d40.jpg?imageView&quality=65&thumbnail=272y272" alt="" width="100%" height="100%">
-                </div>
-                <div class="swiper-slide">
-                  <img class="icon" src="https://yanxuan.nosdn.127.net/b946c00a5ba22b233d9886485372c652.jpg?imageView&quality=65&thumbnail=272y272" alt="" width="100%" height="100%">
-                </div>
-                <div class="swiper-slide">
+                </li>
+                <li class="item swiper-slide">
+                  <img class="icon" src="https://yanxuan.nosdn.127.net/985dfdd957093d821748d1ab355aa927.jpg?imageView&quality=65&thumbnail=272y272" alt="" width="100%" height="100%">
+                </li>
+                <li class="item swiper-slide">
                   <img class="icon" src="https://yanxuan.nosdn.127.net/574c1dad240ac477b14a9882d723d32e.jpg?imageView&quality=65&thumbnail=272y272" alt="" width="100%" height="100%">
-                </div>
-                <div class="swiper-slide">
-                  <img class="icon" src="https://yanxuan.nosdn.127.net/574c1dad240ac477b14a9882d723d32e.jpg?imageView&quality=65&thumbnail=272y272" alt="" width="100%" height="100%">
-                </div>
-                <div class="swiper-slide">
+                </li>
+                <li class="item swiper-slide">
+                  <img class="icon" src="https://yanxuan.nosdn.127.net/6c0c9562d345afc86a38fabf642ab2dc.jpg?imageView&quality=65&thumbnail=272y272" alt="" width="100%" height="100%">
+                </li>
+                <li class="item swiper-slide">
                   <img class="icon" src="https://yanxuan.nosdn.127.net/f7ad1d9ca09643414a1df7d1475ecc0d.jpg?imageView&quality=65&thumbnail=272y272" alt="" width="100%" height="100%">
-                </div>
-              </div>
+                </li>
+              </ul>
             </div>
             <div class="look">
               <i class="iconfont icon-faxian"></i>
@@ -200,21 +200,23 @@
           this.$nextTick(()=>{//界面已经更新显示了
             let swiper  = new Swiper('.collection-swiper', {
               effect: 'coverflow',
-              grabCursor: true,
+              spaceBetween: 30,
               centeredSlides: true,
-              slidesPerView: 'auto',
+              slidesPerView: 2.5,
               coverflowEffect: {
-                rotate: 50,
-                stretch: 0,
+                rotate: 0,
+                stretch: 20,
                 depth: 100,
-                modifier: 1,
+                modifier: 3,
                 slideShadows : true,
+              },
+              autoplay: {
+                delay: 1000,
               },
               pagination: {
                 el: '.swiper-pagination',
               },
             });
-
           })
         }
       },
@@ -548,33 +550,26 @@
             padding-top 0.2rem
             position: relative;
             border-radius: .08rem
-            width: 7.5rem;
+            /*width: 7.5rem;*/
             height: 2.72rem;
             margin-left: -.3rem
-            .swiper-wrapper
-              transition-duration: 0ms;
-              transform: translate3d(-956px, 0px, 0px);
-              perspective-origin: 1143.5px 50%
-              .swiper-slide
-                transition-duration: 0ms;
-                transform: translate3d(0px, 0px, -2372.43px) rotateX(0deg) rotateY(0deg);
-                z-index: -15
-                display inline-block
-                .icon
-                  /*display block*/
-                  width: 2.72rem;
-                  height: 2.72rem;
-                /*.icon::after
-                  content: '';
-                  position: absolute;
+            .list
+              padding-left 0
+              width 100%
+              margin-left 0.2rem
+              .item
+                float left
+                width 2rem
+                padding-right 0.4rem
+                 /* position: absolute;
                   width: 100%;
                   height: 100%;
-                  background: rgba(255, 255, 255, 0.5);
-                  border: 1px solid #D9D9D9;
-                  opacity: 1;
-                  -webkit-transition: opacity 0.2s;
-                  transition: opacity 0.2s;
-                  pointer-events: none*/
+                  left: 0;
+                  top: 0*/
+                .icon
+                  width 2.72rem
+                  height 2.72rem
+                  margin-bottom 0.1rem
           .look
             font-size: .22rem;
             color: #999;
